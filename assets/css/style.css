@@ -59,6 +59,29 @@ h1 {
     border-color: white;
 }
 
+ .score-area p{
+    display: inline-block;
+    margin: 2rem;
+    text-align: center;
+ }
+
+ .correct {
+    background-color:  #a2a9ab;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.incorrect {
+    background-color: #a8232f;
+    color:  white; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/*footer codes*/
 footer {
     background-color: #a2a9ab;
     height: auto;
