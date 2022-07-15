@@ -1,0 +1,20 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
+
+body {
+    background: url('../images/boxing-ring.webp') center no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Gulzar' sans-serif;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
