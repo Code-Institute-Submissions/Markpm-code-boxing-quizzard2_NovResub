@@ -170,8 +170,8 @@ const questions =[
     {
         question: 'In what round did Ricky Hatton was knockout by Manny Pacqauio?',
         answers: [
-            { text: '2nd Round', correct: false },
-            { text: '6th Round', correct: true },
+            { text: '2nd Round', correct: true },
+            { text: '6th Round', correct: false},
             { text: '10th Round', correct: false }
         ]
     },
