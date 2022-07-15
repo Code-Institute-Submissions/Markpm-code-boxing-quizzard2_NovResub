@@ -71,6 +71,15 @@ h1 {
     border-color: white;
 }
 
+.btn.correct{
+    border-color: black;
+    background-color: white;
+}
+
+.btn.wrong {
+    color: #a8232f;
+}
+
 /*controls*/
 .hide{
     display: none;
