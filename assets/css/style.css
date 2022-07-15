@@ -66,11 +66,19 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #be2d2d;
+    background-color: hsl(0, 62%, 46%);
     color: white;
     border-color: white;
 }
 
+/*controls*/
+.hide{
+    display: none;
+}
+
+.welcome {
+    color:#be2d2d;
+}
  .score-area p{
     display: inline-block;
     margin: 2rem;
