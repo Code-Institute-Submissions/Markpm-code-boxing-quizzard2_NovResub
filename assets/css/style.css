@@ -14,9 +14,21 @@ body {
 
 }
 
+#home {
+    font-size: 30px;
+
+    background-color: #be2d2d;
+    color: #ffffff; 
+
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 50px;
     color: white;
+    margin-top: 5px;
 }
 
 .container {
@@ -67,7 +79,7 @@ h1 {
 
  .correct {
     background-color:  #a2a9ab;
-    color: white;
+    color: #ffffff;
     
     padding: 10px;
     border-radius: 10px;
@@ -75,7 +87,7 @@ h1 {
 }
 .incorrect {
     background-color: #a8232f;
-    color:  white; 
+    color:  #ffffff; 
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
