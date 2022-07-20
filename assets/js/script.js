@@ -64,6 +64,10 @@ function selectAnswer(e) {
     }
 }
 
+function calculatedAnswer (){
+    let correct = getElemnetByClassName("correct")
+}
+
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
