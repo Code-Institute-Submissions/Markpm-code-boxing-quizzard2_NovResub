@@ -51,7 +51,13 @@ function resetState() {
 }
 function selectAnswer(e) {
     const selectedButton = e.target
-    const correct = selectedButton.dataset.correct
+    selectedButton.classList.contains("correct")
+    if(selectedButton === "correct"){
+        correct = "true";
+    } else {
+        correct ="false"
+    }
+    
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
@@ -64,8 +70,8 @@ function selectAnswer(e) {
     }
 }
 
-function calculatedAnswer (){
-    let correct = getElemnetByClassName("correct")
+function calculateAnswer (){
+    
 }
 
 function setStatusClass(element, correct) {
