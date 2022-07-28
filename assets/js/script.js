@@ -57,7 +57,7 @@ function selectAnswer(e) {
     } else {
         correct ="false"
     }
-    
+    console.log(selectedButton);
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
