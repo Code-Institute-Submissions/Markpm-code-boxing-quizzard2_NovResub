@@ -6,6 +6,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 const correct = document.getElementsByClassName("btn correct")
+const wrong = document.getElementsByClassName("btn wrong")
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -53,10 +54,14 @@ function resetState() {
 }
 function selectAnswer(e) {
     const selectedButton = e.target
-    selectedButton.classList.contains("btn correct");
-    if(selectedButton) {
-        incrementCorrectAnswer();
-    } 
+    /*selectedButton.classList.contains("correct");*/
+    if(selectedButton.classList.contains("correct")) {
+        incrementCorrectAnswer();//problem-it needs to click the button twicw before it increment the score
+        
+    } else {
+        incrementWrongAnswer(); 
+    }
+    
     console.log(selectedButton);
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
