@@ -54,7 +54,6 @@ function resetState() {
 }
 function selectAnswer(e) {
     const selectedButton = e.target
-    /*selectedButton.classList.contains("correct");*/
     if(selectedButton.classList.contains("correct")) {
         incrementCorrectAnswer();//problem-it needs to click the button twicw before it increment the score
         
