@@ -72,9 +72,11 @@ h1 {
     color: white;
     border-color: white;
 }
-
+/*needs review*/
 .btn.correct{
-    border-color: black;
+    border-color: #be2d2d;
+    background-color: #ffffff;
+    color: black;
 }
 
 .btn.wrong {
