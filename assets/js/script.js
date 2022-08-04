@@ -37,7 +37,7 @@ function showQuestion(question) {
         button.innerText = answer.text
         button.classList.add('btn')
         if (answer.correct) {
-            button.dataset.correct = answer.correct
+            button.classList.add("correct")
         }
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
@@ -55,9 +55,11 @@ function resetState() {
 function selectAnswer(e) {
     const selectedButton = e.target
     if(selectedButton.classList.contains("correct")) {
-        incrementCorrectAnswer();//problem-it needs to click the button twicw before it increment the score
+        console.log("correct");
+        incrementCorrectAnswer();
         
     } else {
+        console.log("wrong");
         incrementWrongAnswer(); 
     }
     
