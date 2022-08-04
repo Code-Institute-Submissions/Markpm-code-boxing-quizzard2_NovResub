@@ -1,4 +1,4 @@
-/**Codes are copied from a youtube tutorial video */
+/**Codes are learned from a tutorial */
 const startButton = document.getElementById("start-btn")
 const nextButton = document.getElementById("next-btn")
 const questionContainerElement = document.getElementById('question-container')
