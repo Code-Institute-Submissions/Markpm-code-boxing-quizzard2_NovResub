@@ -5,6 +5,8 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+const correct = document.getElementsByClassName("btn correct")
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -51,12 +53,10 @@ function resetState() {
 }
 function selectAnswer(e) {
     const selectedButton = e.target
-    selectedButton.classList.contains("correct")
-    if(selectedButton === "correct"){
-        correct = "true";
-    } else {
-        correct ="false"
-    }
+    selectedButton.classList.contains("btn correct");
+    if(selectedButton) {
+        incrementCorrectAnswer();
+    } 
     console.log(selectedButton);
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
@@ -70,8 +70,16 @@ function selectAnswer(e) {
     }
 }
 
-function calculateAnswer (){
+function incrementCorrectAnswer (){
     
+    let score = parseInt(document.getElementById("right").innerText);
+    document.getElementById("right").innerText = ++score;
+}
+
+function incrementWrongAnswer () {
+
+    let score = parseInt(document.getElementById("wrong").innerText);
+    document.getElementById("wrong").innerText = ++score;
 }
 
 function setStatusClass(element, correct) {
