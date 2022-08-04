@@ -147,3 +147,49 @@ footer img{
 .social-networks p {
     color:#ffffff;
 }
+/*--Media querries*/
+@media (max-width: 425px) {
+    
+    #home {
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-left: -30px;
+    }
+    .music {
+        text-align: center;
+        margin-left: -50px;
+    }
+    .container {
+        width: 290px;
+        max-width: 425px;
+        margin-left: 30px;
+        height: 400px;
+        padding : 20px;
+    }
+    #question {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .score-area p {
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        width: 260px;
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+    footer li{
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+    }
+    #start-btn {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+}
