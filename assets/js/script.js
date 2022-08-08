@@ -54,6 +54,7 @@ function resetState() {
 }
 function selectAnswer(e) {
     const selectedButton = e.target
+    const correct = selectedButton.dataset.correct
     if(selectedButton.classList.contains("correct")) {
         console.log("correct");
         incrementCorrectAnswer();
@@ -64,7 +65,7 @@ function selectAnswer(e) {
     }
     
     console.log(selectedButton);
-    setStatusClass(document.body, correct)
+    setStatusClass(document.body, correct);
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
