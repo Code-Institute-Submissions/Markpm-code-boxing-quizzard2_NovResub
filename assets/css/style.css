@@ -203,7 +203,10 @@ footer img{
 }
 /*--Media querries*/
 @media (max-width: 425px) {
-    
+    #pop-up {
+        margin-left: 62px;
+        width: 260px;
+    }
     #home {
         font-size: 20px;
         margin-left: -25px;
