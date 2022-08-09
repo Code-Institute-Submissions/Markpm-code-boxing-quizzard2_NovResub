@@ -207,6 +207,10 @@ footer img{
         margin-left: 62px;
         width: 260px;
     }
+    #pop-up h1 {
+        font-size: 28px;
+        margin-left: 2px;
+    }
     #home {
         font-size: 20px;
         margin-left: -25px;
