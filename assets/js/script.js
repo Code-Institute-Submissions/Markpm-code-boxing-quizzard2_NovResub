@@ -7,17 +7,25 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 const correct = document.getElementsByClassName("btn correct")
 const wrong = document.getElementsByClassName("btn wrong")
+/**Global variable for Welcome Page */
+const modal = document.getElementById("pop-up");
+const closeButton = document.getElementById("close");
+
 
 let shuffledQuestions, currentQuestionIndex
 
+closeButton.addEventListener("click", closeSubmit);
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
 
+function closeSubmit() {
+    modal.style.display ="none";
+}
+
 function startGame() {
-    console.log('Started')
     startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
