@@ -51,7 +51,7 @@ function showQuestion(question) {
         button.innerText = answer.text
         button.classList.add('btn')
         if (answer.correct) {
-            button.classList.add("correct")
+            button.classList.add(".correct")
         }
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
@@ -69,7 +69,7 @@ function resetState() {
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
-    if (selectedButton.classList.contains("correct")) {
+    if (selectedButton.classList.contains(".correct")) {
         console.log("correct");
         incrementCorrectAnswer();
 
