@@ -20,9 +20,15 @@ nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
-
+/**input validation before game starts, knowledge acquired from w3schools */
 function closeSubmit() {
-    modal.style.display = "none";
+    let input = document.getElementById("uname").value;
+    if (input) {
+        modal.style.display = "none";
+    }else {
+        modal.style.display = "block";
+    }
+    console.log(input);
 }
 
 function startGame() {
