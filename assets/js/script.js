@@ -51,7 +51,7 @@ function showQuestion(question) {
         button.innerText = answer.text
         button.classList.add('btn')
         if (answer.correct) {
-            button.classList.add(".correct")
+            button.classList.add(".correct")//Add . on this classlist to prevent incrementing the score into incorrect answer when click momre than once
         }
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
