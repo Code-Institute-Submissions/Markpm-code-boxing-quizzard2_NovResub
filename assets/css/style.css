@@ -380,4 +380,19 @@ footer img {
         font-size: 20px;
         margin-top: 80px;
     }
+    /*--feedback form*/
+    #feedback {
+        margin-left:10px;
+        width:380px;
+        margin-top: -538px;
+    }
+    textarea {
+        width:360px;
+    }
+    #feedback_p {
+        float: none;
+        margin-top: -10px;
+        margin-left: 50px;
+        width: 280px;
+    }
 }
