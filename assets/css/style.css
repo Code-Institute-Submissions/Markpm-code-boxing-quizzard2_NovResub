@@ -6,18 +6,19 @@ body {
     background-size: cover;
 
     text-align: center;
-    
+
     width: 100%;
     height: 100%;
 
-    font-family: 'Gulzar' 'sans-serif';
+    font-family: 'Gulzar''sans-serif';
 
 }
+
 /*pop-up div*/
 #pop-up {
     width: 500px;
     height: 300px;
-    background-color:  #a8232f;
+    background-color: #a8232f;
     color: white;
     border-radius: 10px;
     border: 2px solid #ffffff;
@@ -32,15 +33,16 @@ body {
     font-size: 20px;
     margin-top: -10px;
 }
-.submit_close{
+
+.submit_close {
     width: 200px;
     margin-top: 10px;
     height: 30px;
     border-color: #ffffff;
     border-radius: 2rem;
-    color:#ffffff;
-    background-color: #a8232f; 
-    
+    color: #ffffff;
+    background-color: #a8232f;
+
 }
 
 .usrname {
@@ -49,15 +51,19 @@ body {
     border-radius: 10px;
 }
 
+.usrname::placeholder {
+    text-align: center;
+}
 #user {
     font-size: 20px;
-    font:200;
+    font: 200;
 }
+
 #home {
     font-size: 30px;
 
     background-color: #be2d2d;
-    color: #ffffff; 
+    color: #ffffff;
 
     border-radius: 10px;
     padding: 5px;
@@ -71,7 +77,7 @@ h1 {
 }
 
 .container {
-    background-color:  #a2a9ab;
+    background-color: #a2a9ab;
 
     width: 600px;
     max-width: 800px;
@@ -83,27 +89,28 @@ h1 {
     padding: 40px;
 
     border-radius: 15px;
-    
+
     box-shadow: 0 0 5px 5px;
 
     opacity: 0.8;
-    z-index: 1;/*center*/
-    position:relative;
+    z-index: 1;
+    /*center*/
+    position: relative;
 }
 
 #question {
     font-size: 30px;
-    margin:  auto;
+    margin: auto;
 }
 
-.btn{
+.btn {
     background-color: white;
     margin: 10px 10px;
     font-size: 20px;
     border-radius: 5px;
     border-color: #be2d2d;
     border-radius: 10px;
-    padding:10px;
+    padding: 10px;
     box-shadow: 0 0 5px 5px;
     width: 300px;
 }
@@ -113,11 +120,11 @@ h1 {
     color: white;
     border-color: white;
 }
-/*needs review*/
-.correct{
+
+.correct {
     border-color: #be2d2d;
     background-color: #ffffff;
-    color:black;
+    color: black;
 }
 
 .correct:hover {
@@ -136,38 +143,128 @@ h1 {
     margin-top: 80px;
     width: 360px;
 }
-.next-btn{
+
+.next-btn {
     width: 300px;
-    
+
 }
 
 /*controls*/
-.hide{
+.hide {
     display: none;
 }
 
 
- .score-area p{
+.score-area p {
     display: inline-block;
     margin: 2rem;
     text-align: center;
- }
+}
 
- .right {
-    background-color:  #a2a9ab;
+.right {
+    background-color: #a2a9ab;
     color: #ffffff;
-    
+
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
 }
+
 .incorrect {
     background-color: #a8232f;
-    color:  #ffffff; 
+    color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
 }
+
+/*feedback codes*/
+#feedback {
+    text-align: center;
+    background-color: #a2a9ab;
+    box-shadow: #ffffff;
+    width: 720px;
+    height: 400px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 31%;
+    margin-top: -520px;
+    border-radius: 20px;
+    color: #ffffff;
+    display: none;
+}
+
+#form_fb {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#fname {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: #a8232f;
+}
+
+#fname:hover {
+    background-color: #be2d2d;
+    color: #ffffff;
+}
+
+
+#lname {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: #a8232f;
+}
+
+#lname:hover {
+    background-color: #be2d2d;
+    color: #ffffff;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+}
+
+textarea::placeholder {
+    text-align: center;
+}
+
+#submit_fb {
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#submit_fb:hover {
+    background-color: #be2d2d;
+    color: #ffffff;
+}
+
+#feedback_p {
+    float:right;
+    width: 200px;
+    font-size: 30px;
+    background-color: #a2a9ab;
+    color:#ffffff;
+    margin-top: -80px;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+
+ #feedback_p:hover {
+    background-color: #be2d2d;
+ }
 
 /*footer codes*/
 footer {
@@ -178,18 +275,19 @@ footer {
     bottom: 0;
     left: 0;
 }
-footer li{
+
+footer li {
     text-align: center;
     display: inline-block;
     font-size: 20px;
 }
 
-footer img{
+footer img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin-bottom: -10px;
-    
+
 }
 
 .social-networks a {
@@ -199,47 +297,57 @@ footer img{
 }
 
 .social-networks p {
-    color:#ffffff;
+    color: #ffffff;
 }
+
 /*--Media querries*/
 @media (max-width: 425px) {
     #pop-up {
         margin-left: 62px;
         width: 260px;
     }
+
     #pop-up h1 {
         font-size: 28px;
         margin-left: 2px;
     }
+
     #home {
         font-size: 20px;
         margin-left: -25px;
     }
+
     h1 {
         font-size: 30px;
         margin-left: -25px;
     }
+
     .music {
         text-align: center;
         margin-left: -30px;
     }
+
     .container {
         width: 290px;
         max-width: 425px;
         margin-left: 30px;
         height: 340px;
-        padding : 20px;
+        padding: 20px;
     }
+
     #question {
         font-size: 20px;
     }
+
     .btn {
         font-size: 15px;
-        width:200px;
+        width: 200px;
     }
-    #start-btn{
-        width:220px;
+
+    #start-btn {
+        width: 220px;
     }
+
     .score-area p {
         text-align: center;
         display: block;
@@ -248,11 +356,13 @@ footer img{
         margin-top: -5px;
         margin-left: 50px;
     }
-    footer li{
+
+    footer li {
         text-align: center;
         display: inline-block;
         font-size: 15px;
     }
+
     #start-btn {
         font-size: 20px;
         margin-top: 80px;
