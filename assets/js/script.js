@@ -10,16 +10,27 @@ const wrong = document.getElementsByClassName("btn wrong")
 /**Global variable for Welcome Page */
 const modal = document.getElementById("pop-up");
 const closeButton = document.getElementById("close");
-
+const feedback = document.getElementById("feedback_p");//this is the feedback variable
 
 let shuffledQuestions, currentQuestionIndex
 
+feedback.addEventListener("click", showFeedBackForm);
 closeButton.addEventListener("click", closeSubmit);
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
+/**This is the function that shows the feedback form when clicked */
+function showFeedBackForm() {
+    let feedback = document.getElementById("feedback");
+    if(feedback) {
+        feedback.style.display = "block";
+    }else {
+       feedback.style.display = "none";
+    }
+    console.log(feedback);
+}
 /**input validation before game starts, knowledge acquired from w3schools */
 function closeSubmit() {
     let input = document.getElementById("uname").value;
