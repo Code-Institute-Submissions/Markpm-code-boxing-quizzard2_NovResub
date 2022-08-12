@@ -45,6 +45,11 @@ body {
 
 }
 
+.submit_close:hover {
+    background-color: #a2a9ab;
+    
+}
+
 .usrname {
     width: 190px;
     height: 30px;
@@ -170,12 +175,20 @@ h1 {
     font-size: 20px;
 }
 
+.right:hover {
+    background-color: #a8232f; 
+}
+
 .incorrect {
     background-color: #a8232f;
     color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.incorrect:hover {
+    background-color: #a2a9ab;
 }
 
 /*feedback codes*/
