@@ -274,7 +274,7 @@ textarea::placeholder {
 }
 
  #feedback_p:hover {
-    background-color: #be2d2d;
+    background:linear-gradient(to right,#a2a9ab,#be2d2d);
  }
 
 /*footer codes*/
