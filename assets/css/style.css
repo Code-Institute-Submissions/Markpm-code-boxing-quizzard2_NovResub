@@ -310,7 +310,15 @@ footer img {
 .social-networks p {
     color: #ffffff;
 }
-
+/*--Media querries max-width: 1340*/
+@media (max-width: 1340px) {
+    #pop-up {
+        margin-left: 31%;
+    }
+    #feedback {
+        margin-left: 300px;
+    }
+}
 /*--Media querries*/
 @media (max-width: 425px) {
     #pop-up {
