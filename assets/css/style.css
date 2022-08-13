@@ -194,7 +194,7 @@ h1 {
 /*feedback codes*/
 #feedback {
     text-align: center;
-    background-color: #a2a9ab;
+    background: linear-gradient(#a2a9ab, #be2d2d);
     box-shadow: #ffffff;
     width: 720px;
     height: 400px;
