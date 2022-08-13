@@ -22,7 +22,7 @@ body {
     color: white;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    margin-left: 38%;
+    margin-left: 37%;
     margin-top: 60px;
     z-index: 2;
     position: absolute;
@@ -312,7 +312,7 @@ footer img {
     color: #ffffff;
 }
 
-/*--Media querries max-width 1600px--*/
+/*--Media querries max-width 1600px*/
 @media (max-width:1600px) {
     #pop-up {
         margin-left: 35%;
@@ -387,8 +387,10 @@ footer img {
     }
 }
 
+
 /*--Media querries--*/
 @media (max-width: 425px) {
+
     #pop-up {
         margin-left: 62px;
         width: 260px;
