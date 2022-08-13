@@ -24,7 +24,7 @@ nextButton.addEventListener('click', () => {
 /**This is the function that shows the feedback form when clicked */
 function showFeedBackForm() {
     let feedback = document.getElementById("feedback");
-    if(feedback) {
+    if(feedback.style.display ==="none") {
         feedback.style.display = "block";
     }else {
        feedback.style.display = "none";
