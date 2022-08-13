@@ -100,7 +100,7 @@ h1 {
 
     opacity: 0.8;
     z-index: 1;
-    /*center*/
+
     position: relative;
 }
 
@@ -473,5 +473,68 @@ footer img {
         margin-top: -10px;
         margin-left: 50px;
         width: 280px;
+    }
+}
+
+/*Media querries max-width 320px*/
+@media (max-width: 320px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .music {
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+
+    .container {
+        margin-left: 2px;
+        width: 260px;
+        height: 300px;
+    }
+
+    #pop-up {
+        margin-left: 18px;
+        height: 240px;
+    }
+
+    #pop-up h1 {
+        font-size: 25px;
+    }
+
+    #pop-up p {
+        font-size: 16px;
+    }
+
+    .score-area p {
+        margin-left: 10px;
+    }
+
+    #feedback {
+        height: 350px;
+        width: 310px;
+        margin-top: -496px;
+        margin-left: -3px;
+    }
+
+    #feedback_p {
+        margin-left: 10px;
+        background: linear-gradient(to bottom right, #be2d2d, #a2a9ab);
+    }
+
+    textarea {
+        width: 200px;
+    }
+
+    footer li {
+        margin-left: -10px;
+    }
+
+    footer img {
+        margin-left: -12px;
+    }
+
+    .social-networks p {
+        margin-left: 6px;
     }
 }
