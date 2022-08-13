@@ -281,7 +281,7 @@ textarea::placeholder {
 
 /*footer codes*/
 footer {
-    background-color: #a2a9ab;
+    background: linear-gradient(#a2a9ab, #be2d2d);
     height: auto;
     width: 100%;
     position: fixed;
