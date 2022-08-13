@@ -18,7 +18,7 @@ body {
 #pop-up {
     width: 500px;
     height: 300px;
-    background: linear-gradient( #a8232f, #a2a9ab, #be2d2d);
+    background: linear-gradient(#a8232f, #a2a9ab, #be2d2d);
     color: white;
     border-radius: 10px;
     border: 2px solid #ffffff;
@@ -47,7 +47,7 @@ body {
 
 .submit_close:hover {
     background-color: #a2a9ab;
-    
+
 }
 
 .usrname {
@@ -59,6 +59,7 @@ body {
 .usrname::placeholder {
     text-align: center;
 }
+
 #user {
     font-size: 20px;
     font: 200;
@@ -176,7 +177,7 @@ h1 {
 }
 
 .right:hover {
-    background-color: #a8232f; 
+    background-color: #a8232f;
 }
 
 .incorrect {
@@ -262,7 +263,7 @@ textarea::placeholder {
 }
 
 #feedback_p {
-    float:none;
+    float: none;
     width: 200px;
     font-size: 30px;
     background-color: #a2a9ab;
@@ -270,12 +271,12 @@ textarea::placeholder {
     margin-top: -10px;
     margin-left: 45%;
     border-radius: 10px;
-    
+
 }
 
- #feedback_p:hover {
-    background:linear-gradient(to right,#a2a9ab,#be2d2d);
- }
+#feedback_p:hover {
+    background: linear-gradient(to right, #a2a9ab, #be2d2d);
+}
 
 /*footer codes*/
 footer {
@@ -310,66 +311,82 @@ footer img {
 .social-networks p {
     color: #ffffff;
 }
+
 /*--Media querries max-width 1600px--*/
 @media (max-width:1600px) {
     #pop-up {
         margin-left: 35%;
     }
+
     #feedback {
         margin-left: 28%;
     }
 }
+
 /*--Media querries max-width: 1340--*/
 @media (max-width: 1340px) {
     #pop-up {
         margin-left: 31%;
     }
+
     #feedback {
         margin-left: 300px;
     }
 }
+
 /**--Media querries max-width 1024px--*/
 @media (max-width: 1024px) {
     #pop-up {
         margin-left: 26%;
     }
+
     #feedback {
         margin-left: 14%;
     }
+
     footer {
-        position:relative;
-        margin-left:-8px;
+        position: relative;
+        margin-left: -8px;
     }
 }
+
 /*--Media querries max-width of 800px--*/
 @media (max-width: 800px) {
     h1 {
         font-size: 30px;
     }
+
     .container {
         margin-left: 50px;
-        width:400px;
+        width: 400px;
     }
+
     #pop-up {
-        margin-left: 16%;/*In developer tools is not align including the heading but when tested on galaxy a7 tablet lite it was fine*/
+        margin-left: 16%;
+        /*In developer tools is not align including the heading but when tested on galaxy a7 tablet lite it was fine*/
         width: 390px;
     }
+
     #feedback {
-        margin-left:6%;
+        margin-left: 6%;
         width: 510px;
     }
+
     #question {
         font-size: 20px;
     }
+
     footer {
-        position:fixed;
+        position: fixed;
     }
+
     #feedback_p {
         margin-top: 5px;
         float: left;
         margin-left: 35%;
     }
 }
+
 /*--Media querries--*/
 @media (max-width: 425px) {
     #pop-up {
@@ -437,15 +454,18 @@ footer img {
         font-size: 20px;
         margin-top: 80px;
     }
+
     /*--feedback form*/
     #feedback {
-        margin-left:10px;
-        width:380px;
+        margin-left: 10px;
+        width: 380px;
         margin-top: -538px;
     }
+
     textarea {
-        width:360px;
+        width: 360px;
     }
+
     #feedback_p {
         float: none;
         margin-top: -10px;
