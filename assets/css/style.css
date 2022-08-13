@@ -267,7 +267,7 @@ textarea::placeholder {
     font-size: 30px;
     background-color: #a2a9ab;
     color: #ffffff;
-    margin-top: -80px;
+    margin-top: -70px;
     margin-right: 10px;
     border-radius: 10px;
     
@@ -326,6 +326,39 @@ footer img {
     }
     #feedback {
         margin-left: 14%;
+    }
+    footer {
+        position:relative;
+        margin-left:-8px;
+    }
+}
+/*--Media querries max-width of 800px--*/
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        margin-left: 50px;
+        width:400px;
+    }
+    #pop-up {
+        margin-left: 16%;/*In developer tools is not align but when tested on galaxy a7 tablet lite it was fine*/
+        width: 390px;
+    }
+    #feedback {
+        margin-left:6%;
+        width: 510px;
+    }
+    #question {
+        font-size: 20px;
+    }
+    footer {
+        position:fixed;
+    }
+    #feedback_p {
+        margin-top: 5px;
+        float: left;
+        margin-left: 35%;
     }
 }
 /*--Media querries--*/
