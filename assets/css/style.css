@@ -18,7 +18,7 @@ body {
 #pop-up {
     width: 500px;
     height: 300px;
-    background-color: #a8232f;
+    background: linear-gradient( #a8232f, #a2a9ab, #be2d2d);
     color: white;
     border-radius: 10px;
     border: 2px solid #ffffff;
