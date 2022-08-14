@@ -74,7 +74,7 @@ This website is a quiz game that will test the online users knowledge about boxi
 
   ![A21_mobile](/assets/images/a21_screenshot.png)
   ![A7_lite](/assets/images/galaxy_a7_lite.png)
-  
+
 
 # Validator testing
 
@@ -89,6 +89,19 @@ This website is a quiz game that will test the online users knowledge about boxi
   * JS
 
     * No errors found but warnings of missing semi-colons and some const variables when passing through [Jshint](https://jshint.com/), semi-colons were corrected but ignore some  of the warnings as I do not have much understanding  of it yet.
+
+* # Accessability
+
+  * I can confirmed that the color and fonts are easy to read in mobile and desktop by running the hompage through lighthouse in devtools.
+
+    * Desktop Accesability Score
+
+      ![Desktop_score](/assets/images/accesability.png)
+
+    * Mobile Acessability Score
+
+      ![Mobile](/assets/images/mobile_accessability.png)  
+
 
 
 
