@@ -29,3 +29,11 @@ This website is a quiz game that will test the online users knowledge about boxi
   * By clicking the "Let's box to start the game!", the first question will then be displayed.
 
   ![screenshot_start_button](/assets/images/start_btn.png)
+
+* # The Score Area
+
+  * This is the area where the online user will see their correct and incorrect answers when a button is clicked.
+  * The online user must only  click once to get the exact score .
+  * The online user must click the homepage to reset the score back to zero.
+
+  ![screenshot_score_area](/assets/images/score_area.png)
