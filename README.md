@@ -38,4 +38,12 @@ This website is a quiz game that will test the online users knowledge about boxi
 
   ![screenshot_score_area](/assets/images/score_area.png)
 
- 
+* # The Feedback
+
+  * This paragraph is clickable, it allows the online user to open and close the form container.
+  * It is coded using a javascript event listener for easy access to online user to fill up the feedback form.
+  * The background color of the feedback form  has two combination of colors using the linear-gradient code in style.css.
+
+  ![feedback](/assets/images/feedback.png)
+
+  ![feedback_form](/assets/images/feedback_form.png)
