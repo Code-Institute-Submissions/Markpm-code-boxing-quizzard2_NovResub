@@ -47,3 +47,13 @@ This website is a quiz game that will test the online users knowledge about boxi
   ![feedback](/assets/images/feedback.png)
 
   ![feedback_form](/assets/images/feedback_form.png)
+
+* # The Question Area
+
+  * The Question Area container opens once the submit button and start button is click by the online user.
+  * The user has three choices, if click by the user it will increment the score in the score area.
+  * Once the user clicks the any button the border color and question will transform into #be2d2d color effect.
+
+  ![question_container](/assets/images/question_container.png)
+
+  ![question_container1](/assets/images/question_container1.png)
