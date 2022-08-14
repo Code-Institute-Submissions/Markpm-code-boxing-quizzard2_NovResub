@@ -102,6 +102,16 @@ This website is a quiz game that will test the online users knowledge about boxi
 
       ![Mobile](/assets/images/mobile_accessability.png)  
 
+# Deployment
+
+  * The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab,
+    * From the source section drop-down menu, select the Master Branch,
+    * After selecting the Master branch, click save,
+    * Once the master branch has been selected, the page will be automatically refreshed or can be done manually too and a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://markpm-code.github.io/boxing-quizzard2/
+
 
 
 
