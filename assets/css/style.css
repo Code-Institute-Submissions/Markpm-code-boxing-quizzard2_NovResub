@@ -363,7 +363,6 @@ footer img {
 
     #pop-up {
         margin-left: 16%;
-        /*In developer tools is not align including the heading but when tested on galaxy a7 tablet lite it was fine*/
         width: 390px;
     }
 

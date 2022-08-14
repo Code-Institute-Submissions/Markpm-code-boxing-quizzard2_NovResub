@@ -64,3 +64,16 @@ This website is a quiz game that will test the online users knowledge about boxi
   * It has a logo of a boxing gloves for the online user to interact and  identify the brand of a company or a website.
 
   ![footer](/assets/images/footer.png)
+
+# Testing
+
+  * The Boxing Quizzard site was tested manually on Samsung Mobile A21 mobile and Samsung galaxy tablet A7 lite.
+  * It was sytled in different screen sizes and are responsive using the chrome developer tools.
+
+  This are the screenshots from the Samsung A21 mobile and Galaxy Tab A7 Lite:
+
+  ![A21_mobile](/assets/images/a21_screenshot.png)
+  ![A7_lite](/assets/images/galaxy_a7_lite.png)
+
+
+
