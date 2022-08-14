@@ -57,3 +57,10 @@ This website is a quiz game that will test the online users knowledge about boxi
   ![question_container](/assets/images/question_container.png)
 
   ![question_container1](/assets/images/question_container1.png)
+
+* # The Footer
+
+  * This section has links to social media sites and opens a new tab to allow eeasy navigation for the user.
+  * It has a logo of a boxing gloves for the online user to interact and  identify the brand of a company or a website.
+
+  ![footer](/assets/images/footer.png)
