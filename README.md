@@ -16,7 +16,7 @@ This website is a quiz game that will test the online users knowledge about boxi
 
   * The landing image  is selected to synchronized with the game title "Boxing Quizzard".
   * It has an audio effect for the user to play to have a feel of a boxing event and also entertain the online user while playing the Quiz.
-  * It is also featured with a Welcome Page/Div fot the online user to create a username before it can start playing the game.
+  * It is also featured with a Welcome Page/Div for the online user to create a username before it can start playing the game.
   * The game can only start once the online user enters a username.
   * Any value is accepted for the username field to validate input.
   * A  linear-gradient was use for the color combination on the Welcome Page.
@@ -37,3 +37,5 @@ This website is a quiz game that will test the online users knowledge about boxi
   * The online user must click the homepage to reset the score back to zero.
 
   ![screenshot_score_area](/assets/images/score_area.png)
+
+ 
