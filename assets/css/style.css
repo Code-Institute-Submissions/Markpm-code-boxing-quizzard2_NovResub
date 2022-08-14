@@ -400,6 +400,7 @@ footer img {
     }
 }
 
+
 /*--Media querries--*/
 @media (max-width: 425px) {
 
@@ -485,6 +486,33 @@ footer img {
         margin-top: -10px;
         margin-left: 50px;
         width: 280px;
+    }
+}
+
+@media (max-width:360px) {
+    .container {
+        margin-left: 6px;
+    }
+
+    #pop-up {
+        margin-left: 38px;
+    }
+
+    #feedback {
+        margin-left: 0;
+        width: 350px;
+    }
+
+    textarea {
+        width: 330px;
+    }
+
+    .score-area {
+        margin-left: -14px;
+    }
+
+    #feedback_p {
+        margin-left: 30px;
     }
 }
 
