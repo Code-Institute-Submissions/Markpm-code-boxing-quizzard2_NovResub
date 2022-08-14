@@ -74,6 +74,22 @@ This website is a quiz game that will test the online users knowledge about boxi
 
   ![A21_mobile](/assets/images/a21_screenshot.png)
   ![A7_lite](/assets/images/galaxy_a7_lite.png)
+  
+
+# Validator testing
+
+  * HTML
+
+    * Errors were found when passing through the official [W3C validator](https://validator.w3.org/), errors are corrected and returns fine.
+
+  * CSS
+
+    * Error found when passing through the official validator [Jigsaw](https://jigsaw.w3.org/css-validator/),fixed error and reutrn clean after revalidation.
+
+  * JS
+
+    * No errors found but warnings of missing semi-colons and some const variables when passing through [Jshint](https://jshint.com/), semi-colons were corrected but ignore some  of the warnings as I do not have much understanding  of it yet.
+
 
 
 
