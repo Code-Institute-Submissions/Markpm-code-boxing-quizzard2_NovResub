@@ -387,7 +387,20 @@ footer img {
         margin-left: 35%;
     }
 }
+/*Media querries max-width of 768px*/
+@media (max-width: 768px) {
+    .container {
+        margin-left: 18%;
+    }
 
+    #pop-up {
+        margin-left: 24%;
+    }
+
+    #feedback {
+        margin-left: 16%;
+    }
+}
 
 /*--Media querries--*/
 @media (max-width: 425px) {
