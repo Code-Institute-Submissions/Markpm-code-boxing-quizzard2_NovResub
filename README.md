@@ -52,7 +52,7 @@ This website is a quiz game that will test the online users knowledge about boxi
 
   * The Question Area container opens once the submit button and start button is click by the online user.
   * The user has three choices, if click by the user it will increment the score in the score area.
-  * Once the user clicks the any button the border color and question will transform into #be2d2d color effect.
+  * Once the user clicks any button the border color and question will transform into #be2d2d color effect.
 
   ![question_container](/assets/images/question_container.png)
 
@@ -60,7 +60,7 @@ This website is a quiz game that will test the online users knowledge about boxi
 
 * # The Footer
 
-  * This section has links to social media sites and opens a new tab to allow eeasy navigation for the user.
+  * This section has links to social media sites and opens a new tab to allow easy navigation for the user.
   * It has a logo of a boxing gloves for the online user to interact and  identify the brand of a company or a website.
 
   ![footer](/assets/images/footer.png)
