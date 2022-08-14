@@ -22,3 +22,10 @@ This website is a quiz game that will test the online users knowledge about boxi
   * A  linear-gradient was use for the color combination on the Welcome Page.
 
   ![Landing_image_screenshot](/assets/images/landing_page.png)
+
+* # The Start Button
+  
+  * This button displays once the online user create a username and clicks the submit button.
+  * By clicking the "Let's box to start the game!", the first question will then be displayed.
+
+  ![screenshot_start_button](/assets/images/start_btn.png)
