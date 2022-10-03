@@ -96,6 +96,11 @@ function selectAnswer(e) {
         nextButton.classList.remove('hide');
     } else {
         startButton.innerText = 'Restart';
+        //Resets the score back to zero
+        startButton.addEventListener("click", backHmoe => {
+            window.location.href = "index.html";
+        });
+        
         startButton.classList.remove('hide');
     }
 }
@@ -319,3 +324,4 @@ const questions = [{
         ]
     },
 ];
+
