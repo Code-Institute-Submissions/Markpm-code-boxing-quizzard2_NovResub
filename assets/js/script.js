@@ -60,7 +60,7 @@ function showQuestion(question) {
         button.innerText = answer.text;
         button.classList.add('btn');
         if (answer.correct) {
-            button.classList.add(".correct");//Add . on this classlist to prevent incrementing the score into incorrect answer when click momre than once
+            button.dataset.correct = answer.correct
         }
         button.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(button);
@@ -78,7 +78,7 @@ function resetState() {
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct;
-    if (selectedButton.classList.contains(".correct")) {
+    if (correct) {
         console.log("correct");
         incrementCorrectAnswer();
 
