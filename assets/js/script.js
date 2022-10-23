@@ -4,6 +4,7 @@ const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const buttons = document.getElementsByClassName("btn");
 
 /**Global variable for Welcome Page */
 const modal = document.getElementById("pop-up");
@@ -11,6 +12,7 @@ const closeButton = document.getElementById("close");
 const feedback = document.getElementById("feedback_p");//this is the feedback variable
 
 let shuffledQuestions, currentQuestionIndex;
+let wrong = false;
 
 feedback.addEventListener("click", showFeedBackForm);
 closeButton.addEventListener("click", closeSubmit);
@@ -75,19 +77,28 @@ function resetState() {
     }
 }
 
+/** this function disable all the buttons when an answer is selected */
+function disableAnswers(){
+    for (let i = 0; i  < 3; i++){
+        buttons[i].disabled = true;
+    }
+}
+
+
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct;
     if (correct) {
-        console.log("correct");
+        console.log(correct);
         incrementCorrectAnswer();
+        disableAnswers();
 
-    } else {
-        console.log("wrong");
+    } else{
+        disableAnswers();
+        console.log(wrong);
         incrementWrongAnswer();
     }
 
-    console.log(selectedButton);
     setStatusClass(document.body, correct);
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
