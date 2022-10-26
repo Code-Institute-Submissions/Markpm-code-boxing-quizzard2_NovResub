@@ -21,6 +21,7 @@ nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
+
 /**This is the function that shows the feedback form when clicked */
 function showFeedBackForm() {
     let feedback = document.getElementById("feedback");
@@ -31,6 +32,12 @@ function showFeedBackForm() {
     }
     console.log(feedback);
 }
+
+var form = document.getElementById("pop-up");
+//**This to prevent the form from not submitting,codes from Coding Shiksha */
+form.addEventListener("submit", function(event) {
+    event.preventDefault()
+})
 /**input validation before game starts, knowledge acquired from w3schools */
 function closeSubmit() {
     let input = document.getElementById("uname").value;
