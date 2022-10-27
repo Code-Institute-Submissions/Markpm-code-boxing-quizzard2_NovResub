@@ -31,7 +31,16 @@ body {
 
 #pop-up p {
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: -25px;
+}
+
+.hidden {
+    display: none !important;
+    
+}
+
+errorMessages {
+    height: auto;
 }
 
 .submit_close {

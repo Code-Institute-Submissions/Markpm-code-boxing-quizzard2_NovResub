@@ -10,6 +10,7 @@ const buttons = document.getElementsByClassName("btn");
 const modal = document.getElementById("pop-up");
 const closeButton = document.getElementById("close");
 const feedback = document.getElementById("feedback_p");//this is the feedback variable
+const warnUser = document.getElementsByClassName("hidden");
 
 let shuffledQuestions, currentQuestionIndex;
 let wrong = false;
@@ -38,13 +39,15 @@ var form = document.getElementById("pop-up");
 form.addEventListener("submit", function(event) {
     event.preventDefault()
 })
-/**input validation before game starts, knowledge acquired from w3schools */
+/**input validation before game starts, knowledge acquired from w3schools,
+ * added codes for defensive design
+ */
 function closeSubmit() {
     let input = document.getElementById("uname").value;
-    if (input) {
+    if (input.length >= 4) {
         modal.style.display = "none";
     }else {
-        modal.style.display = "block";
+        alert("please try again...\n Please input a minimum of 4 and a maximum of 10 characters.");
     }
     console.log(input);
 }
