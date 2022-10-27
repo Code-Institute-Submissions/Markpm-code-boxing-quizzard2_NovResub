@@ -34,15 +34,6 @@ body {
     margin-top: -25px;
 }
 
-.hidden {
-    display: none !important;
-    
-}
-
-errorMessages {
-    height: auto;
-}
-
 .submit_close {
     width: 200px;
     margin-top: 10px;
