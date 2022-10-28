@@ -63,6 +63,7 @@ function startGame() {
     setNextQuestion();
 }
 
+//This function  loads the next shuffled question when the next button is clicked
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
