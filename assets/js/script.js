@@ -158,7 +158,9 @@ function clearStatusClass(element) {
     element.classList.remove('wrong');
 }
 
-//This are the questions array
+//Codes from Web Dev Simplified youtube tutorial 
+//Questions and Answer are amended
+//This are the questions array 
 const questions = [{
         question: 'Who is the third man in the ring?',
         answers: [{
