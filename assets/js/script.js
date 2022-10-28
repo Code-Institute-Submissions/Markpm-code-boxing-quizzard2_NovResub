@@ -143,6 +143,7 @@ function incrementWrongAnswer() {
     document.getElementById("wrong").innerText = ++score;
 }
 
+//This function changes the color of text and border when a button is selected
 function setStatusClass(element, correct) {
     clearStatusClass(element);
     if (correct) {
