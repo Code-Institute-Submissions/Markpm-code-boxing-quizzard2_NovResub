@@ -54,6 +54,7 @@ function closeSubmit() {
     document.getElementById("errorMsg").innerHTML = txt;
 }
 
+//This function displays the question container when the startButton is clicked
 function startGame() {
     startButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - .5);
