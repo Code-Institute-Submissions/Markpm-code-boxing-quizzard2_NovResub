@@ -68,6 +68,7 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
+//This function shows the question and answers for selection
 function showQuestion(question) {
     questionElement.innerText = question.question;
     question.answers.forEach(answer => {
@@ -90,7 +91,7 @@ function resetState() {
     }
 }
 
-/** this function disable all the buttons when an answer is selected */
+//This function disable all the buttons when an answer is selected 
 function disableAnswers(){
     for (let i = 0; i  < 3; i++){
         buttons[i].disabled = true;
