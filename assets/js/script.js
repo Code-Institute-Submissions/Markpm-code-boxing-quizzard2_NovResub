@@ -1,4 +1,4 @@
-/**Codes are learned from a tutorial */
+//Codes are learned from Wed Deb youtube tutorial 
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById('question-container');
@@ -38,7 +38,7 @@ var form = document.getElementById("pop-up");
 //**This to prevent the form from not submitting,codes from Coding Shiksha */
 form.addEventListener("submit", function(event) {
     event.preventDefault();
-})
+});
 
 /**input validation before game starts, knowledge acquired from w3schools,
  * added codes for defensive design
@@ -76,7 +76,7 @@ function showQuestion(question) {
         button.innerText = answer.text;
         button.classList.add('btn');
         if (answer.correct) {
-            button.dataset.correct = answer.correct
+            button.dataset.correct = answer.correct;
         }
         button.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(button);
@@ -100,7 +100,7 @@ function disableAnswers(){
 
 //This function increments the score when a user selects a button and when selected it disable all the answer buttons
 function selectAnswer(e) {
-    const selectedButton = e.target
+    const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
     if (correct) {
         incrementCorrectAnswer();
