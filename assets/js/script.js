@@ -37,18 +37,20 @@ function showFeedBackForm() {
 var form = document.getElementById("pop-up");
 //**This to prevent the form from not submitting,codes from Coding Shiksha */
 form.addEventListener("submit", function(event) {
-    event.preventDefault()
+    event.preventDefault();
 })
 /**input validation before game starts, knowledge acquired from w3schools,
  * added codes for defensive design
  */
 function closeSubmit() {
     let input = document.getElementById("uname").value;
-    if (input.length >= 4) {
+    var txt;// added this variable to raise error when a user input is invalid
+    if (input.length >= 4 && (input.length <= 10)) {
         modal.style.display = "none";
     }else {
-        alert("please try again...\n Please input a minimum of 4 and a maximum of 10 characters.");
+        txt = "Please enter a minimum of 4 and a maximum of 10 characters to continue.";
     }
+    document.getElementById("errorMsg").innerHTML = txt;
     console.log(input);
 }
 

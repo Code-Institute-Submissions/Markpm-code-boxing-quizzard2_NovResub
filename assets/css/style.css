@@ -31,7 +31,12 @@ body {
 
 #pop-up p {
     font-size: 20px;
-    margin-top: -25px;
+    margin-top: -15px;
+}
+
+#pop-up h2{
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 .submit_close {
