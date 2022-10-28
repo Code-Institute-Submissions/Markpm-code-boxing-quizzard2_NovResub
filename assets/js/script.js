@@ -39,6 +39,7 @@ var form = document.getElementById("pop-up");
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 })
+
 /**input validation before game starts, knowledge acquired from w3schools,
  * added codes for defensive design
  */
