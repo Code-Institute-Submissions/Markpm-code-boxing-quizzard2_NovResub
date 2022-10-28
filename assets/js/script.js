@@ -10,7 +10,7 @@ const buttons = document.getElementsByClassName("btn");
 const modal = document.getElementById("pop-up");
 const closeButton = document.getElementById("close");
 const feedback = document.getElementById("feedback_p");//this is the feedback variable
-const warnUser = document.getElementsByClassName("hidden");
+//const warnUser = document.getElementsByClassName("hidden");
 
 let shuffledQuestions, currentQuestionIndex;
 let wrong = false;
@@ -48,7 +48,7 @@ function closeSubmit() {
     if (input.length >= 4 && (input.length <= 10)) {
         modal.style.display = "none";
     }else {
-        txt = "Please enter a minimum of 4 and a maximum of 10 characters to continue.";
+        txt = "Please enter a minimum of 4 and a maximum of 10 characters to start the game.";
     }
     document.getElementById("errorMsg").innerHTML = txt;
     console.log(input);
