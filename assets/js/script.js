@@ -98,7 +98,7 @@ function disableAnswers(){
     }
 }
 
-
+//This function increments the score when a user selects a button and when selected it disable all the answer buttons
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct;
