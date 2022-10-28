@@ -9,7 +9,7 @@ const buttons = document.getElementsByClassName("btn");
 /**Global variable for Welcome Page */
 const modal = document.getElementById("pop-up");
 const closeButton = document.getElementById("close");
-const feedback = document.getElementById("feedback_p");//this is the feedback variable
+const feedback = document.getElementById("feedback_p"); //this is the feedback variable
 //const warnUser = document.getElementsByClassName("hidden");
 
 let shuffledQuestions, currentQuestionIndex;
@@ -26,17 +26,17 @@ nextButton.addEventListener('click', () => {
 /**This is the function that shows the feedback form when clicked */
 function showFeedBackForm() {
     let feedback = document.getElementById("feedback");
-    if(feedback.style.display ==="none") {
+    if (feedback.style.display === "none") {
         feedback.style.display = "block";
-    }else {
-       feedback.style.display = "none";
+    } else {
+        feedback.style.display = "none";
     }
     console.log(feedback);
 }
 
 var form = document.getElementById("pop-up");
 //**This to prevent the form from not submitting,codes from Coding Shiksha */
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function (event) {
     event.preventDefault();
 });
 
@@ -45,14 +45,13 @@ form.addEventListener("submit", function(event) {
  */
 function closeSubmit() {
     let input = document.getElementById("uname").value;
-    var txt;// added this variable to raise error when a user input is invalid
+    var txt; // added this variable to raise error when a user input is invalid
     if (input.length >= 4 && (input.length <= 10)) {
         modal.style.display = "none";
-    }else {
+    } else {
         txt = "Please enter a minimum of 4 and a maximum of 10 characters to start the game.";
     }
     document.getElementById("errorMsg").innerHTML = txt;
-    console.log(input);
 }
 
 function startGame() {
@@ -92,8 +91,8 @@ function resetState() {
 }
 
 //This function disable all the buttons when an answer is selected 
-function disableAnswers(){
-    for (let i = 0; i  < 3; i++){
+function disableAnswers() {
+    for (let i = 0; i < 3; i++) {
         buttons[i].disabled = true;
     }
 }
@@ -106,7 +105,7 @@ function selectAnswer(e) {
         incrementCorrectAnswer();
         disableAnswers();
 
-    } else{
+    } else {
         disableAnswers();
         incrementWrongAnswer();
     }
@@ -123,7 +122,7 @@ function selectAnswer(e) {
         startButton.addEventListener("click", backHmoe => {
             window.location.href = "index.html";
         });
-        
+
         startButton.classList.remove('hide');
     }
 }
@@ -355,4 +354,3 @@ const questions = [{
         ]
     },
 ];
-
