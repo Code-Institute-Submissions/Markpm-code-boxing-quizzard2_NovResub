@@ -102,13 +102,11 @@ function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct;
     if (correct) {
-        console.log(correct);
         incrementCorrectAnswer();
         disableAnswers();
 
     } else{
         disableAnswers();
-        console.log(wrong);
         incrementWrongAnswer();
     }
 
