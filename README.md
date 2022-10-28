@@ -90,10 +90,10 @@ This site is a fully responsive  Javascript boxing quiz game that will allow the
 
   * JS
 
-    * No errors found but warnings of missing semi-colons and some const variables when passing through [Jshint](https://jshint.com/), semi-colons were corrected but ignored the 23 warnings as I do not have much understanding  of it yet.
+    * No errors found but warnings of missing semi-colons and some const variables when passing through [Jshint](https://jshint.com/), semi-colons were corrected but ignored the 25 warnings as I do not have much understanding  of it yet.
 
       * The following metrics were returned:
-      * There are 15 functions on this file.
+      * There are 18 functions on this file.
       * Function with the largeset signature take 2 arguments, while the median is 0.
       * The largest function has 14 statements in it , while the median is 2.
       * The most complex function has a cyclomatic complexity value of 3 while the median is 1.
