@@ -82,6 +82,7 @@ function showQuestion(question) {
     });
 }
 
+//This function resets the question when the next button is clicked and resets the ext and border color to black
 function resetState() {
     clearStatusClass(document.body);
     nextButton.classList.add('hide');
