@@ -13,7 +13,7 @@ const feedback = document.getElementById("feedback_p");//this is the feedback va
 //const warnUser = document.getElementsByClassName("hidden");
 
 let shuffledQuestions, currentQuestionIndex;
-let wrong = false;
+//let wrong = false;
 
 feedback.addEventListener("click", showFeedBackForm);
 closeButton.addEventListener("click", closeSubmit);
