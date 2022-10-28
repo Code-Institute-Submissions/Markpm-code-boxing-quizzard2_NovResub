@@ -153,6 +153,7 @@ function setStatusClass(element, correct) {
     }
 }
 
+//This function clears the color of text when the next button is selected
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
