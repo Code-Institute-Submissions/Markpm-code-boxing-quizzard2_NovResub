@@ -129,12 +129,14 @@ function selectAnswer(e) {
     }
 }
 
+//This function increment th correct answer
 function incrementCorrectAnswer() {
 
     let score = parseInt(document.getElementById("right").innerText);
     document.getElementById("right").innerText = ++score;
 }
 
+// This function increments the wrong answer
 function incrementWrongAnswer() {
 
     let score = parseInt(document.getElementById("wrong").innerText);
