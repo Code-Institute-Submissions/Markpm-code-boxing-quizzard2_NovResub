@@ -54,11 +54,14 @@ This site is a fully responsive  Javascript boxing quiz game that will allow the
 
   * The Question Area container opens once the submit button and start button is click by the online user.
   * The user has three choices, if click by the user it will increment the score in the score area.
-  * Once the user clicks any button the border color and question will transform into #be2d2d color effect.
+  * Once the user clicks the correct answer button the border color and question text will transform into #ffffff color effect.
+  * If the user the incorrect answer button the border color and question twxt will transform into #be2d2d color.
 
   ![question_container](/assets/images/question_container.png)
 
-  ![question_container1](/assets/images/question_container1.png)
+  ![Correct Answer](/assets/images/correct_answer.png)
+
+  ![Incorrect Answer](/assets/images/incorrect_answer.png)
 
 * # The Footer
 
