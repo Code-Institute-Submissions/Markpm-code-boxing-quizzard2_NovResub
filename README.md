@@ -48,7 +48,7 @@ This site is a fully responsive  Javascript boxing quiz game that will allow the
 
   ![feedback](/assets/images/feedback.png)
 
-  ![feedback_form](/assets/images/feedback_form.png)
+  ![feedback_form](/assets/images/feedback_update.png)
 
 * # The Question Area
 
