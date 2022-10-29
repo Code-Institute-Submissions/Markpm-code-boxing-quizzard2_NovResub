@@ -467,9 +467,6 @@ footer img {
         margin-left: 12px;
     }
 
-    .right {
-        margin-top: 20px;
-    }
 
     footer li {
         text-align: center;
@@ -486,7 +483,7 @@ footer img {
     #feedback {
         margin-left: 10px;
         width: 380px;
-        margin-top: -380px;
+        margin-top: -384px;
         height: fit-content;
     }
 
