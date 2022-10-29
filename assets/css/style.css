@@ -411,12 +411,13 @@ footer img {
 
     #pop-up {
         margin-left: 62px;
+        margin-top: 8px;
         width: 260px;
+        height:330px;
     }
 
-    #pop-up h1 {
-        font-size: 28px;
-        margin-left: 2px;
+    #pop-up h2 {
+        font-size: 30px;
     }
 
     #home {
@@ -425,20 +426,23 @@ footer img {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 40px;
         margin-left: -25px;
     }
 
     .music {
         text-align: center;
         margin-left: -30px;
+        margin-top: -18px;
+        height: -2px;
     }
 
     .container {
         width: 290px;
         max-width: 425px;
         margin-left: 30px;
-        height: 340px;
+        margin-top: 4px;
+        max-height:420px;
         padding: 20px;
     }
 
@@ -479,7 +483,8 @@ footer img {
     #feedback {
         margin-left: 10px;
         width: 380px;
-        margin-top: -538px;
+        margin-top: -380px;
+        height: fit-content;
     }
 
     textarea {
@@ -488,7 +493,7 @@ footer img {
 
     #feedback_p {
         float: none;
-        margin-top: -10px;
+        margin-top: 15px;
         margin-left: 50px;
         width: 280px;
     }
