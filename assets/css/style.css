@@ -348,6 +348,10 @@ footer img {
     #feedback {
         margin-left: 14%;
     }
+    
+    #feedback_p {
+        margin-left: 40%;
+    }
 
     footer {
         position: relative;
