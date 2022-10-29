@@ -464,8 +464,11 @@ footer img {
         display: inline;
         font-size: 15px;
         width: 60px;
-        margin-top: -5px;
         margin-left: 12px;
+    }
+
+    .right {
+        margin-top: 20px;
     }
 
     footer li {
@@ -493,7 +496,7 @@ footer img {
 
     #feedback_p {
         float: none;
-        margin-top: 15px;
+        margin-top: 35px;
         margin-left: 50px;
         width: 280px;
     }
