@@ -31,6 +31,7 @@
     <form id="pop-up">
         <h2>Welcome Boxing Quizzards!</h2>
         <p>Please create a username to continue.</p>
+        <!--Warn user when the entered data is invalid-->
         <p id="errorMsg"></p>
         <div>
             <label id="user">Username:</label>
@@ -41,6 +42,7 @@
 
         </div>
     </form>
+    <!--This the container that holds the questions and answer buttons-->
     <div class="container">
         <div id="question-container" class="hide">
             <div id="question">Question</div>
@@ -61,6 +63,7 @@
         <p class="right">Correct Answers:<span id="right">0</span></p>
         <p class="incorrect">Incorrect Answers:<span id="wrong">0</span></p>
     </div>
+    <!--This is the feedback form-->
     <div id="feedback">
         <form id="form_fb" method="post" action="https://formdump.codeinstitute.net/" class="sign-up-form">
             <label for="fname">First name:</label><br>
